@@ -125,8 +125,7 @@ def drawMan(livesLost):
     print("|")
     print("|")
     print("|")
-
-  
+    
   print("|")
   print("|")
   print("|________________")
@@ -142,7 +141,6 @@ def lose_life(lives_lost):
   lives_lost += 1
   drawMan(lives_lost)
   return lives_lost
-
 
 def turn(answer, guesser):
   print(guesser, "it is your turn to guess")
